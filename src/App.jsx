@@ -2,6 +2,7 @@ import { useState,useEffect } from 'react'
 import './App.css'
 import Line from './components/Line'
 import Options from './components/Options'
+import Footer from './components/Footer';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <h1 className='text-5xl text-center font-bold p-4 lg:p-8 lg:text-6xl'><span className='font-sans font-extrabold italic'>Pickup Line</span> Generator</h1>
         <Line line = {line}/>
         <Options newData = {newData} setCat = {setCat}/>
+        <Footer/>
       </div>
       
     </>
